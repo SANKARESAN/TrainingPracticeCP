@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form>
+
+        <div>
+            <label for="uname">Enter your FullName:</label>
+            <input type="text" name="fname" id="uname" pattern="^[a-zA-Z]{2,20}$" minlength="2"
+            maxlength="20" placeholder="Enter your FullName" required>
+        </div>
+
+<br>
+
+        <div>
+            <label for="upass">Enter your Password: </label>
+            <input type="password" name="pwd" id="upass" placeholder="Enter your password" required>
+        </div>
+
+<br>
+
+        <div>
+            <label for="uemail">Enter your Email:</label>
+            <input type="email" name="email" id="uemail"  placeholder="Enter your email" required>
+        </div>
+
+<br>
+
+        <div>
+            <label for="ucontact">Enter your Contact:</label>
+            <input type="tel" name="contact" id="ucontact" pattern="^[0-9]{9,11}$" placeholder="Enter your contact" required> 
+        </div>
+
+<br>
+
+        <div>
+            <label for="udob">Select your DOB:</label>
+            <input type="date" name="dob" id="udob">
+        </div>
+
+<br>     
+
+        <div>
+            <label for="">Select your Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="others">Others
+        </div>
+
+<br>
+<!---->
+        <div>
+            <label for="">Select your Qualifications:</label>
+            <input type="checkbox" name="edu" value="ssc">SSC
+            <input type="checkbox" name="edu" value="hsc">HSC
+            <input type="checkbox" name="edu" value="ug">UG 
+            <input type="checkbox" name="edu" value="pg">PG
+        </div>
+
+<br>
+<!--select Tag: if u use select tag, must use option tag otherwise only u can select option in form-->
+        <div>
+            <label for="">Select your course:</label>
+            <select multiple name="courses" id="">
+                <option value="">select your course</option>
+                <option value="">Java</option>
+                <option value="">Python</option>
+                <option value="">DotNet</option>
+                <option value="">React</option>
+            </select>
+        </div>
+<br>
+<!--Textarea Tag: use to enlarge feedback box -->
+        <div>
+            <label for="">Give your feedback:</label>
+            <textarea name="" id=""></textarea>
+        </div>
+<br>
+        <button type="submit">submit</button>   <!--why button tag in outside div tag ? It will show same line that's why we using on outside div tag-->
+    </form>
+
+
+</body>
+</html>

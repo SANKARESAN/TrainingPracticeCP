@@ -1,0 +1,91 @@
+
+# CSS :
+--> It is use to design webapp and to make it responsive.
+--> css stands for Cascading Style Sheet.
+--> latest version of css is css-3.
+
+
+# Q:- 
+1. what are types of css.
+2. how to use css ?
+-> there are 3 ways of use css,
+I)   Inline CSS:    Inside a starting tag we use style attribute and in that we property and value.
+II)  Internal CSS:  In html file, we use style tag and in that we select element apply css in html file head part. 
+
+III) External CSS:  In  this we create a seperate css file and import that css in html file head part.
+
+Syntax: selector{
+    property : value;
+    property : value;
+    property : value;
+    }
+
+
+# SELECTOR IN CSS :-
+-> Selecting an element,
+
+1. Element or tag name selector: in thuis we use elememnt or tag name to apply css property.
+
+2. Group selector : in this we make group selector to apply css property .
+
+3. Id selector (#): if you have to apply css property to an single element in that case we use it.
+
+4. Class Selector (.): when you have to apply bunch of css property to specific element in that case we use it.
+
+5. Universal selector (*): When we have to apply all css property to all element available in html page.
+
+
+# BORDER:-
+-> A line drown around an element
+
+# BOX MODEL: it contain four point.
+1. content : it can be any image or text.
+2. padding : it is use to clear area between content and element border.
+3. border  : a line drown around an element.
+4. margin  : it is use to clear area outside element border.
+
+# PROPERTY: 
+--> VISIBILITY : hidden;
+--> DISPLAY    : none
+
+
+# POSITION : it is use to move element after applying left, right, top and bottom property value.
+           : by default every element has position: static.
+
+1. position: static; (default)
+2. position: relative; element will move from left, right, top and bottom side.
+3. position: absolute; when we want to move child element according to its parent element.        
+3. position: fixed; when we have to fixed on screen window.        
+3. position: sticky; when we have to stick element on screen window.           
+
+---------------------------------------------------------------------------------------------------------------------------------
+# MEDIA-QUERY :
+--> it is use of apply different style rule to an element according to different screen width.
+
+syntax:
+        @media screen and (screen-width){
+            css code
+        }
+
+
+device screen-width >= 1200px     xl screen
+device screen-width >= 992px      lg screen
+device screen-width >= 768px      md screen
+device screen-width >= 576px      sm screen
+device screen-width >= 576px      xsm screen
+
+
+# screen width :
+1. max-wdth : css property will applicable from its minimum width to its max-width not above to it.
+2. min-wdth : css property will be applicable from its minimum width to above width.
+
+
+
+
+
+
+
+
+
+
+
