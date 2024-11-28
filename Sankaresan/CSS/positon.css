@@ -36,8 +36,14 @@ header{
     width: 50px;
     z-index: 1;
 }
-
+.pos-fixed img{
+    height: 50px;
+    width: 50px;
+}
 .pos-sticky{
+    border: 3px solid slateblue;
+    text-align: center;
+    background-color: aqua;
     position: sticky;
-    width: 100px;
+    top: 0px;
 }

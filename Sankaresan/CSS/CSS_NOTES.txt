@@ -9,7 +9,7 @@
 1. what are types of css.
 2. how to use css ?
 -> there are 3 ways of use css,
-I)   Inline CSS:    Inside a starting tag we use style attribute and in that we property and value.
+I)   Inline CSS:    Inside a starting tag we use style attribute and in that we use property and value.
 II)  Internal CSS:  In html file, we use style tag and in that we select element apply css in html file head part. 
 
 III) External CSS:  In  this we create a seperate css file and import that css in html file head part.
@@ -24,7 +24,7 @@ Syntax: selector{
 # SELECTOR IN CSS :-
 -> Selecting an element,
 
-1. Element or tag name selector: in thuis we use elememnt or tag name to apply css property.
+1. Element or tag name selector: in this we use element or tag name to apply css property.
 
 2. Group selector : in this we make group selector to apply css property .
 
@@ -45,8 +45,8 @@ Syntax: selector{
 4. margin  : it is use to clear area outside element border.
 
 # PROPERTY: 
---> VISIBILITY : hidden;
---> DISPLAY    : none
+--> VISIBILITY : hidden;    --> elem will present does not visible.
+--> DISPLAY    : none       -->
 
 
 # POSITION : it is use to move element after applying left, right, top and bottom property value.
@@ -72,13 +72,23 @@ device screen-width >= 1200px     xl screen
 device screen-width >= 992px      lg screen
 device screen-width >= 768px      md screen
 device screen-width >= 576px      sm screen
-device screen-width >= 576px      xsm screen
+device screen-width >= 376px      xsm screen
 
 
 # screen width :
 1. max-wdth : css property will applicable from its minimum width to its max-width not above to it.
 2. min-wdth : css property will be applicable from its minimum width to above width.
 
+================================================================================================================================
+---------------------------------------------------------DAY-3----------------------------------------------------------------------
+
+
+# BOX-SIZING : it include element border size and element padding size in its actual width.
+# BOX-SIZING : border-BOX
+
+
+# FLOAT : it is use to move block element side by side.
+        : it has three values, left, right, none.
 
 
 

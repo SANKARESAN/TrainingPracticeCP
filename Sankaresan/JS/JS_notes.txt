@@ -1,0 +1,75 @@
+28/11/24
+
+# JAVASCRIPT :-
+--> it is use to ad functionality into webapp.
+--> it is interpreted language.
+--> it is loosely typed language.
+
+
+
+# Q1: Why js is loosely typed lang ?
+-- when we create a var in js, we cant determine that, what type of data it contain until and unless initialize it.
+-- in js, we can store multiple data tpye variables. 
+
+
+
+# Q2: How to use js ?
+--> there are 2 ways to use it,
+1. internal js : in html file, we use script tag and in that we write js code.
+2. external js : in this we create a separate js file and import that js file in html file by using script tag.
+
+
+
+# Q3: How to get output in js ?
+1. document.write() : it will display o/p in html page. 
+2. window.alert()   : it will display o/p in model popup window.
+3. console.log()    : it will display o/p in browser console or terminal.
+4. innerHTML(DOM)   : it will display o/p inside an element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
