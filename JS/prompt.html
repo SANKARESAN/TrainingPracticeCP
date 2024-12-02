@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       
+        /*
+
+       let data = prompt("Enter your name", "sankaresh");
+        document.write(`${data} <br>`);
+        
+     //  1.CHECK THE LETTER IS VOWEL OR CONSTANT ?
+     
+     let data1 = prompt("Enter a letter");
+       if (data1 === 'a' || data1 === 'e' || data1 === 'i' || data1 === 'o' || data1 === 'u'){
+       document.write(`It is vowel letter: ${data1}`);          
+       }
+       else if(data1 === 'A' || data1 === 'E' || data1 === 'I' || data1 === 'O' || data1 === 'U'){
+        document.write(`It is vowel letter: ${data1}`); 
+       }
+       else{
+        document.write(`It is constant letter: ${data1}     <br>`);
+       }
+
+
+
+    // 2.CHECK THE NUMBER IS ODD OR EVEN ?
+
+    let num1 = prompt("Enter the number:");
+    if(num1 % 2 ==0){
+        document.write(`The given number is even: ${num1}`)
+    }
+    else{
+        document.write(`The given number is odd: ${num1}   <br>`)
+    }
+
+*/
+
+
+    // 3. CHECK EMAIL ?
+/*
+    let email = prompt("Enter the email:");
+        if(search(email) === "@gmail.com" || search(email) === "@yahoo.com" || search(email) === "@hotmail.com" || 
+        search(email) === "@changepond.com"){
+            document.write(`Valid Email:${email}    <br>`);
+        }
+        else{
+            document.write(`Invalid Email:${email}    <br>`);
+        }
+*/
+
+//  ===================================================================================================
+        // let data = prompt ("enter your name","sam");
+        // document.write(data);
+
+        function greeting(){
+            console.log("Good AfterNoon My dear friends");
+        }
+        greeting();
+        setTimeout(greeting, 3000);
+
+
+        setTimeout(()=>{
+            console.log("Good Afternnon my dear friends");},3000);
+
+
+        setInterval(greeting,1000);
+        setInterval(() =>{console.log("Good Afternoon my dear friends");},1000);
+        
+    </script>
+</body>
+</html>

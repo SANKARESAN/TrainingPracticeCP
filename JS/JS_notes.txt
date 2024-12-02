@@ -1,5 +1,11 @@
 28/11/24
 
+
+
+cmd 
+code .          --> open the folder
+
+
 # JAVASCRIPT :-
 --> it is use to ad functionality into webapp.
 --> it is interpreted language.
@@ -40,14 +46,14 @@
     : we can re-declare the variable.
 
 ex;
-    var mydata; // var declaration
+var mydata; // var declaration
     mydata = "changepond";       //  var initialization
     var yourName = "Rahul";      //  defing a variable
 
 
 
 2. LET : it create block scope variable.
-       : we cannot use var before its declaration.
+       : we cannott use var  before its declaration.
        : we can not re-declare variable.
 
 
@@ -99,7 +105,7 @@ function_Name();
 # ARRAY : it is use to store multiple values with same data type.
         : in array data store on index basis.
         : array index always start from zero index.
-        : we can access array values oudtide nby writing arrayName[indexNumber].
+        : we can access array values outside by writing arrayName[indexNumber].
 
 # ARRAY METHOD
 
@@ -147,6 +153,106 @@ dec = 11
 
 
 # FORM VALIDATION :  checking user enter data in correct or wrong.
+
+===================================================================================================================================
+02/12/2024
+
+### string and its method :
+
+string : it collection of character.
+       : in str every char has index value and it start from 0.
+       : in str blank space is also consider as string.
+
+
+--> There are 3 method which index of searching string.
+
+1. indexof(searchingString, stratIndex?):
+--> it will search str from letft to right and return index of first occurences of string.
+--> it searching str is not found then returen -1 as result.
+
+
+2. lastIndexOf(searchingString, startIndex):
+--> it will search str from right to left and return index of first occurences of string.
+--> it searching str is not found then return -1 as result.
+
+
+3. search(searchingString):
+--> it will search str g=from left to right  return index of first occurences of string.
+--> it searching str is not found then return -1 as result.
+--> it is faster than indexof method. 
+
+
+# There are 3 method which return part of searching string,
+
+1. slice(startIndex, endIndex?):
+
+--> it will return part of string from big string.
+--> if we write +ve index then will search infdex from left to right.
+--> if we write -ve index then will search infdex from right  to left.
+
+
+
+2. substring(startIndex, endIndex?):
+
+--> it will return part of string from big string.
+--> if we write +ve index then will search infdex from left to right.
+
+
+
+3. substr(startIndex, totalNumberOfCharacter):
+
+--> it will return part of string from big string.
+--> if we write +ve index then will search index from left to right.
+
+
+
+# charAt(): it return character from index number.
+# charCodeAt(index): it retrun ASCII code.
+
+
+# PROMPT : it  genearte one popup window and allows use  to inservalue in it.
+
+
+# SetTimeOut  : it call another method only one after particular time interval.
+# setInterval : it call another method multiple  time after particular time interval.
+
+
+
+
+### ES-5 (ECMA script - 2009)
+- forEach
+- map
+- filter
+- every
+- some 
+- reduce/ Reduceright
+
+
+### ES-6 (ECMA script - 2015)
+
+- let, const
+- **
+
+
+
+# HOW TO MERGE TWO OR MORE ARRAY VALUES...
+
+# DESTRUCTURING : Creating constant variable to store data in it.
+                : we can destruct array.......?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

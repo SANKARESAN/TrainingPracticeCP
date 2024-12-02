@@ -1,0 +1,55 @@
+2/12/24
+
+# TYPESCRIPT :-
+
+--> It is super set of javascript.
+--> it is compile language.
+--> it is strict typed language.
+
+
+
+# How to know ts is available or not
+# How to install TYPESCRIPT
+
+# cmd -1 --> TO INSTALL TYPESCRIPT --> npm i -g typescript
+ 
+tsc -v   --> CHECK TYPESCRIPT VERSION.       
+
+npx tsc -v -->  After not recognized 
+
+
+# How to execute typescript file ?
+1--> tsc fileName.ts     // complete ts file and create on plain js file... //  npx tsc demo.ts
+
+2--> node fileName.js // to execute js file...
+
+
+
+# variable declaration in TS ?
+# data-type in TS ?
+
+1. TASK : write one parameterize func is TS which wll take two parameter and display your FullName ?
+
+2. TASK : write a parameterize func, which will return area of circle passing radius values as parameter ?
+
+=========================================================================================================================
+
+# OOPS :
+
+-->  1. class : it is collection of data member and member-function.
+              : it s template of which we can re-use.
+              : to create class we use class keyword.
+
+
+-->  2. object : it is an instance of class.
+              : it alloews us to access class data-member  and member- func outside class,.
+
+syntax : let objName = new ClassName()
+
+
+
+# CONSTRUCTOR: 
+--> It is special member func of class.
+--> it will execute automatically when class object get created (or) initialize.
+--> 
+
