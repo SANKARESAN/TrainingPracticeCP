@@ -1,0 +1,157 @@
+2/12/24
+
+# TYPESCRIPT :-
+
+--> It is super set of javascript.
+--> it is compile language.
+--> it is strict typed language.
+
+
+
+# How to know ts is available or not
+# How to install TYPESCRIPT
+
+# cmd -1 --> TO INSTALL TYPESCRIPT --> npm i -g typescript
+ 
+tsc -v   --> CHECK TYPESCRIPT VERSION.       
+
+npx tsc -v -->  After not recognized 
+
+
+# How to execute typescript file ?
+1--> tsc fileName.ts     // complete ts file and create on plain js file... //  npx tsc demo.ts
+
+2--> node fileName.js // to execute js file...
+
+
+
+# variable declaration in TS ?
+# data-type in TS ?
+
+1. TASK : write one parameterize func is TS which wll take two parameter and display your FullName ?
+
+2. TASK : write a parameterize func, which will return area of circle passing radius values as parameter ?
+
+=========================================================================================================================
+
+# OOPS :
+
+-->  1. class : it is collection of data member and member-function.
+              : its template of which we can re-use.
+              : to create class we use class keyword.
+
+
+-->  2. object : it is an instance of class.
+              : it allows us to access class data-member  and member- func outside class,.
+
+syntax : let objName = new ClassName()
+
+
+
+# CONSTRUCTOR: 
+--> It is special member func of class.
+--> it will execute automatically when class object get created (or) initialize.
+--> in ts construction name must only be constructor.
+
+==================================================================================================================================
+3/12/24
+
+# 3. INHERITANCE:-
+
+--> accessing parent class property into child class.
+--> to perform inheritance in between classes we use extends keywords.
+
+
+# super() :
+
+--> it represent parent class constructor insode child class constructor.
+--> super method must be first statement in child class constructor.
+
+
+
+# 4. ENCAPSULATION :
+--> wrapping of data into single unit.
+
+--> public :    we can access class property inside and outside as well as in derived(child) class.
+--> protected : we can access class property inside same class as well as in derived(child) class.
+--> private :   we can access class property inside same class only.
+
+
+
+
+
+# 5. ABSTRACTION :
+--> hiding implementations and showing necessary information .
+--> we can achieve this by using interface, abstract class.
+
+
+
+
+# 6. POLYMORPHISM      : It is ability to take more than one form. 
+--> method overloading : when we have multiple method with same name in same class.
+--> method overriding  : when we have multiple method with same name in different class.
+
+
+
+# MODULE : 
+
+--> writing ts code in single or mulptiple file and access it in another file.
+--> to achieve this we use export and import keyword.
+--> to send data we use export to access it we use import.
+
+
+
+# INTERFACE:
+
+--> It is signature of class
+--> it contain abstract method
+--> to create interface we use interface keyword
+--> its child class has responsibility to implement it. 
+--> to implement interface we use implement keyword.
+
+
+==============================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
