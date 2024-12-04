@@ -1,0 +1,162 @@
+REACT Handon notes..
+
+-- its js library
+-- user interf appl react because its faster.
+-- user standalone appl = angular.
+
+angular = google, framework, update after every 6months,ver18.
+react = facebook, ver18
+
+-------------------------------------------------------------------------------------------
+
+3/12/24
+
+#  REACT :
+
+--> it is javascript library.
+--> it is us to craete rich user interface.
+--> it create single page application(SPA).
+
+
+
+#  Technology Pre-Requestie :
+--> html, css, js(basic js, ES5 and ES6, oops)
+
+
+# s/w pre-requist :
+--> nodejs
+node -v
+npm -v
+
+# Editior: (VS CODE)
+
+
+
+# How to create react project ?
+there are 3 ways to create react project,
+
+1. by using npm: need to install configuration file.
+	step-1 : npm install -g create-react-app
+	step-2 : create-react-app appname
+	step-3 : cd appname
+	step-4 : npm start
+
+
+2. by using npx: no need to install configuration file.
+	step-1 : npx create-react-app appname
+	step-2 : cd appname
+	step-3 : npm start
+
+3. BY using vite: it create proj with minimum package.
+
+# How to display react project
+npm start 
+
+# How to display react proj
+http://localhost:3000
+
+# React folder structure
+-node_modules  : all the dependencies and dev-dependenies will install in this folder.
+-package.json : all dependencies entry will found.
+-package-lock.json : detail description of file you wil found here.
+-README.md : it is guide file how to use react proj. 
+-public : it contain static data an file in it.
+
+
+# React is component basis Technology
+-component : it is partial part of react proj.
+		   : which we can reuse through out react proj.
+		   : it can be part of react proj.
+ 
+- in react App.js is root component. 
+
+
+
+
+- in react we gahve two types of component,
+
+1. function component   : when your main focus is on Ui design. -> file name must start with capital letter.
+2. class component 		: when you have to implement complex logic in that case we it.
+
+
+
+
+### How to display component output:
+
+* JSX (Javascript + XML)
+
+--> it allows us to write html code in react.
+ -> it makes react code easy, in jsx we have wrap multiple elem inside one parent elem.
+ -> parent elem must be any block elem like div, h1-h6, p  etc.
+
+
+
+### props:
+
+--> it is parameter or functional parameter which is use pass data inside component.
+--> props return data in objECT format.
+--> we can access props in function component by writting props.propsName.
+--> we can access props in class component by writting props.propsName.
+
+
+=========================================================================================================
+TASK-1 : create component and display output
+TASK-2 : Write props with fname, lname, salary, gender, address and display its values.
+TASK-3 : create a class component with name MyCounterComp having state with property count = 0,
+(Task-folder) you have to implement logic to incre, decre and reset count value after click three button.
+
+=========================================================================================================
+
+
+# Method and Events in React :	MyStateComp (cc)
+# state:
+--> it is use to handle essential in class component.
+--> it return us object type of data
+--> in class component we write state inside constructor.
+--> if you want use state in function component for that we use useState Hook
+
+
+# setState:
+-->  it is use to manipulate state data inside class component.
+
+
+###
+1. How to use bootstrap in REACT ?
+step-1 : npm i bootstrap
+step-2 : go to index.js file and import its path	--> import 'bootstrap/dist/css/bootstrap.min.css';
+step-3 : use bootstrap classes
+
+
+# RENDER : display component output or view on browser.
+
+
+# CONDITIONAL RENDERING :									// ConditionalRenComp (cc)
+-->	display component on thwe basis conditional.
+
+1. use of if else : id condition is true then if block will execute otherwise else block.
+
+2. element as variable : in var we store data and display inside tag and return it.
+
+3. use of ternary oper: short hand syntax for if else
+						(condition) ? truepart : falsepart;
+
+4. use of short--circuit : if condition is true then and only then it display outpuut.
+
+
+
+### CssComp (FC)
+How to use CSS in RAECT ?
+-- there are 3 ways to use css,
+1. internal css	: 
+2. external css : 
+3. module css	: it is use when we have write  design for particular component.
+				: we save file with filename.module.css
+
+
+
+
+
+
+
+
+
