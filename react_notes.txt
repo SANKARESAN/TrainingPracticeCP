@@ -1,4 +1,4 @@
-REACT Handon notes..
+REACT Hand-on notes..
 
 -- its js library
 -- user interf appl react because its faster.
@@ -14,7 +14,7 @@ react = facebook, ver18
 #  REACT :
 
 --> it is javascript library.
---> it is us to craete rich user interface.
+--> it is use to create rich user interface.
 --> it create single page application(SPA).
 
 
@@ -31,7 +31,7 @@ npm -v
 # Editior: (VS CODE)
 
 
-
+=========================================================================================================
 # How to create react project ?
 there are 3 ways to create react project,
 
@@ -52,6 +52,7 @@ there are 3 ways to create react project,
 # How to display react project
 npm start 
 
+=========================================================================================================
 # How to display react proj
 http://localhost:3000
 
@@ -62,23 +63,27 @@ http://localhost:3000
 -README.md : it is guide file how to use react proj. 
 -public : it contain static data an file in it.
 
+============================================================================================================
+
 
 # React is component basis Technology
 -component : it is partial part of react proj.
-		   : which we can reuse through out react proj.
+		   : which we can reuse throughout react proj.
 		   : it can be part of react proj.
  
-- in react App.js is root component. 
+- in react, "App.js" is root component. 
 
 
 
+============================================================================================================
 
-- in react we gahve two types of component,
+
+- in react we have two types of component,
 
 1. function component   : when your main focus is on Ui design. -> file name must start with capital letter.
 2. class component 		: when you have to implement complex logic in that case we it.
 
-
+============================================================================================================
 
 
 ### How to display component output:
@@ -89,14 +94,14 @@ http://localhost:3000
  -> it makes react code easy, in jsx we have wrap multiple elem inside one parent elem.
  -> parent elem must be any block elem like div, h1-h6, p  etc.
 
-
+=======================================================================================================
 
 ### props:
 
 --> it is parameter or functional parameter which is use pass data inside component.
 --> props return data in objECT format.
---> we can access props in function component by writting props.propsName.
---> we can access props in class component by writting props.propsName.
+--> we can access props in function component by writting 'props.propsName'.
+--> we can access props in class component by writting 'this.props.propsName'.
 
 
 =========================================================================================================
@@ -105,44 +110,52 @@ TASK-2 : Write props with fname, lname, salary, gender, address and display its 
 TASK-3 : create a class component with name MyCounterComp having state with property count = 0,
 (Task-folder) you have to implement logic to incre, decre and reset count value after click three button.
 
+ParentComp (cc):state empName, empSal display it output, write method to manipulate state peoperty,
+				PASS PROPS AND ACCESS GENDER, CONTACT.
+
+TASK-5 : clickCounterComp (cc), state-count:0 
+TASK-5 : HoverCounterComp (cc), state-count:0 , count will display when we hover
+
+UserComp fc = props => user
 =========================================================================================================
 
 
 # Method and Events in React :	MyStateComp (cc)
-# state:
+# 1) state:
 --> it is use to handle essential in class component.
 --> it return us object type of data
 --> in class component we write state inside constructor.
 --> if you want use state in function component for that we use useState Hook
 
 
-# setState:
+=================================================================================================
+# 2) setState:
 -->  it is use to manipulate state data inside class component.
 
-
+==================================================================================================
 ###
 1. How to use bootstrap in REACT ?
 step-1 : npm i bootstrap
 step-2 : go to index.js file and import its path	--> import 'bootstrap/dist/css/bootstrap.min.css';
 step-3 : use bootstrap classes
-
+=========================================================================================================
 
 # RENDER : display component output or view on browser.
 
 
 # CONDITIONAL RENDERING :									// ConditionalRenComp (cc)
--->	display component on thwe basis conditional.
+-->	display component output on the basis of conditions.
 
-1. use of if else : id condition is true then if block will execute otherwise else block.
+1. use of if else : if condition is true then if block will execute otherwise else block.
 
 2. element as variable : in var we store data and display inside tag and return it.
 
 3. use of ternary oper: short hand syntax for if else
 						(condition) ? truepart : falsepart;
 
-4. use of short--circuit : if condition is true then and only then it display outpuut.
-
-
+4. use of short-circuit : if condition is true then and only then it display output.
+(&&)
+============================================================================================================
 
 ### CssComp (FC)
 How to use CSS in RAECT ?
@@ -151,6 +164,134 @@ How to use CSS in RAECT ?
 2. external css : 
 3. module css	: it is use when we have write  design for particular component.
 				: we save file with filename.module.css
+
+============================================================================================================
+4/12/24
+---------
+(use to wrapping the multiple content)
+
+#  FRAGMENT IN REACT :
+  --------------------
+-- it is a alternative option for jsx.
+-- it remove unwamted elem from DOM heirarchy.
+===========================================================================================================
+
+# Component Interaction:
+-- access data from parent component to child component.
+-- while performing comp Interaction in between component they must have parent child relation.
+-- how establish parent child relation in between component, first we have to import child component in 
+parent component  and then write child component name as tag in parent component.
+
+===========================================================================================================
+
+# passing state data as props
+# passing function data as props
+
+
+===========================================================================================================
+# PureComponent :
+--it is use to prevent un-necessary re-rendering
+
+
+
+
+
+
+
+
+# React.Memo():
+-it is use to preventt unnecessary re-rendering func comp by perfoeming sgaloow comparison.
+- to achieve we ahve to pass func comp name as argument to Reacrt.memo() method.
+
+===================================================================================================
+# HOC (Higher order Component):								MyHocComp (fc)  ig
+
+-- when we have to share same business logic with mltiple component in that case we use it. 
+-- in this we share  business logic from function component to class or function component.
+====================================================================================================
+MyMemoComp (fc)
+MyImagesComp ()
+
+
+=====================================================================================================
+# ErrorBoundry :
+----------------
+-- it is react component which is use to handle error occurs in comp tree while rendering comp.
+-- to handle it we use two class component life-cycle method.
+
+1. getDerivedStateFromError() : when error occurs in component it execute automatically.
+2. componentDidCatch() : it will display error log(error information).
+
+=====================================================================================================
+# VirtualDOM :
+----------------
+-- instead of manipulating BDOM directly, react creates vir.DOM in memory.
+-- here it does all necessary changes before making on BDOM.
+-- React render the code that need to be change only, that why react us faster. 
+
+
+-- render array of object data in list.
+-- render array data in select option.
+=====================================================================================================
+
+REACT -  DAY-2 
+
+TASK-1 : Create class comp with name ToogleImgComp and toogle the img after click on single button.
+TASK-2 : Create class comp with name MultipleImgComp and display the img after click on multiple button.
+TASK-3 : Create class comp with name EmpDetails having state with array of object data, emp  containing property
+		 like  EMPID, EMPNAME, EMPPOST, EMPSAL, EMPCONTACT, Empaddress for 10 emp and display the data .......?
+========================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
