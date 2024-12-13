@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <script>
+        let students = ["Sankaresh","sam","sonam","tom"];
+        console.log(students);
+        console.log(students[2]);   // access the array data outside
+        
+        students[1] = "Samantha";   // update the array data
+        console.log(students);
+
+        console.log("array length:",students.length);
+        console.log("array size:",students.length-1);
+
+        // how to iterate array
+        for(let i=0; i< students.length; i++){
+            document.write(students[i] + ",");
+        }
+
+        document.write("<br>-------------<br>")
+
+        // for of: it will return array value
+        for(let s of students){
+            document.write(s+",");
+        }
+
+        document.write("<br>-------------<br>")
+
+
+        // for in: it will return array index
+        for(let s in students){
+            document.write(s+",");
+        }
+
+
+        // 1. push() : it is use to insert values at last index of an array.
+        students.push("bala","ola");
+        console.log(students);
+
+         // 2. pop() : it is use to remove values at last index of an array.
+         students.pop();
+        console.log(students);
+
+         // 3. unshift() : it is use to insert values at starting index of an array.
+         students.unshift("siva","jadeja");
+        console.log(students);
+
+        // 4. shift() : it remove values from strating index of array.
+        students.shift();
+        console.log(students);
+
+        
+        // 5. splice(startIndex, deleteCount, valuesToAdd): it is use to insert and remove values from middle index of an array.
+        students.splice(2,0,"Varun","raina");   // add two values from second ..................?
+        console.log(students);
+
+        students.splice(3,2);                   // remove two valuess from third index.
+        console.log(students);
+
+        students.splice(2,1,"prasad","sai");    // remove one value and insert two values from second index
+        console.log(students);
+
+
+        // 6.  toString(): it is use to convert array data into string.
+        console.log(students.toString())
+
+        // 7. join(separator): it is use to convert array data into string, it take one parameter to separate values.
+        console.log(students.join());
+        console.log(students.join("*"));
+        console.log(students.join(" "));
+
+
+
+    </script>
+</body>
+</html>

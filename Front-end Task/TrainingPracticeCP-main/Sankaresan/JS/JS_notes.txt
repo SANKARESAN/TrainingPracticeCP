@@ -1,0 +1,165 @@
+28/11/24
+
+# JAVASCRIPT :-
+--> it is use to ad functionality into webapp.
+--> it is interpreted language.
+--> it is loosely typed language.
+
+
+
+# Q1: Why js is loosely typed lang ?
+-- when we create a var in js, we cant determine that, what type of data it contain until and unless initialize it.
+-- in js, we can store multiple data tpye variables. 
+
+
+
+# Q2: How to use js ?
+--> there are 2 ways to use it,
+1. internal js : in html file, we use script tag and in that we write js code.
+2. external js : in this we create a separate js file and import that js file in html file by using script tag.
+
+
+
+# Q3: How to get output in js ?
+1. document.write() : it will display o/p in html page. 
+2. window.alert()   : it will display o/p in model popup window.
+3. console.log()    : it will display o/p in browser console or terminal.
+4. innerHTML(DOM)   : it will display o/p inside an element.
+
+==========================================================================================================================
+29/11/24
+
+# Hosting : moving var and func declaration at top of webpage.
+
+
+# VARIABLE : it is use to store data in it.
+           : we can create variable in JS by using var, let, const. 
+
+1. VAR : it create function scope variable.
+    : we can use variable before its declaration.
+    : we can re-declare the variable.
+
+ex;
+var mydata; // var declaration
+    mydata = "changepond";       //  var initialization
+    var yourName = "Rahul";      //  defing a variable
+
+
+
+2. LET : it create block scope variable.
+       : we cannott use var  before its declaration.
+       : we can not re-declare variable.
+
+
+3. const : it create block scope var
+         : we can not use var before its declaration
+         : in this when wqe declare a variable at same time we have initialize it.
+         : its data will never change or run time.
+ 
+
+- exponentiation (**) : it return power  of any number.
+
+
+== (equal to) : it check value only and if both are same then it will return true value
+ex : 5 == 5
+    true
+ex : 5 == '5'
+    true     
+
+=== (exactly equal to) : it will check value as well as its data and if both are same then it will return true value
+ex : 5 === 5
+    true
+ex : 5 === '5'
+    true    
+    
+    
+===============================================================================================================================
+# DOM MANIPULATION :
+
+# FUNCTION : it is block of code which is used to perform specific task
+           : func will execute only when we call it.
+           : fucn can be re-use.
+
+# there are mainly two-types of functions,
+1. predefine function : provide js to us.
+2. usedefine function : user developed for particular use.
+
+syntax :-
+
+function  function_Name(){
+    //logical code
+}
+function_Name();
+
+
+# How to change attribute value by using DOM
+# How to call function by using event
+# How to access data from input control
+
+# ARRAY : it is use to store multiple values with same data type.
+        : in array data store on index basis.
+        : array index always start from zero index.
+        : we can access array values oudtide nby writing arrayName[indexNumber].
+
+# ARRAY METHOD
+
+# OBJECT : it is use to store multiple values with different data type.
+         : in obj dtata store in key and value paired format.
+         : we can access object data outside of by writing object.keyName.
+         : obj type of data is denoted by {}
+
+
+=======================================TASK-3================================================================
+TASK: Create array of object for 10 employees have keys id, name, post, salary, gender, age, city, state.
+
+1. display all 10 employee information.
+2. display employee information who is manager.
+3. display information of all employee who's gender is female ?
+4. display information of all employee who's age > 55 ?
+5. display information of all employee who belong to Tamil-nadu ? 
+
+
+TASK : perform form validation for password, email, contact, gender?
+==============================================================================================================
+
+
+
+# CALLBACK FUNCTION : passing a function name as argument inside another function is called callback func.
+
+
+# DATE AND TIME :- 
+
+--> If we want to diplay date and time in js first we have obj of date class.
+--> Date object return information from browser.
+
+let objName = new Date();
+sun = 0
+mon = 1
+sat = 6
+
+
+jan = 0
+feb = 1
+.
+.
+dec = 11
+
+
+
+# FORM VALIDATION :  checking user enter data in correct or wrong.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

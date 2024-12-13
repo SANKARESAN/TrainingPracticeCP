@@ -1,0 +1,31 @@
+<p>product-dash works!</p>
+
+<a href=""  routerLink="/maindashboard/productAdd" class="btn btn-outline-secondary mb-2 mb-2">Add</a>
+    
+    <table class="table table-hover table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>sr.no</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Company</td>
+                <td>Quantity</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let product of productArray">
+                <td>{{product.id}}</td>
+                <td>{{product.pname}}</td>
+                <td>{{product.pprice}}</td>
+                <td>{{product.pcompany}}</td>
+                <td>{{product.pquantity}}</td>
+                <td>
+                    <a href="" [routerLink]="['/maindashboard/productEdit/',product.id]" class="btn btn-outline-success btn-sm me-2">Edit</a>
+                
+                    <button type="button" (click)="deleteData(product.id)" class="btn btn-outline-danger btn-sm me-2">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>

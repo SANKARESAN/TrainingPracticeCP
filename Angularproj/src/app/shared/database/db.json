@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "id": "8f50",
+      "pname": "vivo-v40",
+      "pprice": "40000",
+      "pcompany": "vivo",
+      "pquantity": "2"
+    },
+    {
+      "id": "e7eb",
+      "pname": "laptop",
+      "pprice": "100000",
+      "pcompany": "ASUS ",
+      "pquantity": "5"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userid": "admin@gmail.com",
+      "userpass": "admin@123"
+    },
+    {
+      "id": "2",
+      "userid": "hero@gmail.com",
+      "userpass": "hero@123"
+    }
+  ]
+}

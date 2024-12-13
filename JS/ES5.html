@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let std = ["Tarun","Rahul","Sai","Madhav","Rishi"];
+    
+        // 1. forEach() : It call another method once for each array element.
+    
+        std.forEach((val,index) => {
+        document.writeln(`${val},`);
+        }); 
+        document.writeln(`<br>`)
+
+
+        // 2. map() : it cll another method ponce for each array element and it return new array after performing manipulation with
+        // array data.
+
+        let num = [1,2,4,15,7,9,10,12,14,16,17,18,20,21,22,24,26,28];
+        document.writeln(`${num}<br>`);
+
+
+        let mapOut = num.map((val, index) => {
+            return val * 2;
+        });
+        document.writeln(`${mapOut}<br>`);
+
+
+        // 3. filter() : it call another method once for each array element and it return new array  
+        //               of those value who satisfy given condition.
+        
+        let filterOut = num.filter((val, index) => {
+            return val % 2 != 0;
+        });
+        document.writeln(`${filterOut}<br>`);
+
+
+
+        // 4. every() : it call another mehtod once for each aray element and it return true value 
+        //              if all array element satisfy given condition.
+
+        let everyOut = num.every((val, index) => {
+            return val > 0;
+        });
+        document.writeln(`${everyOut}<br>`);
+
+
+
+
+        // 5. some() : it call another method once for each array element and it retrun true value if some of array 
+        //              elemnet satisfy given conditon.
+
+        let someOut = num.some((val, index) => {
+            return val > 2;
+        });
+        document.writeln(`${someOut}<br>`)
+
+
+
+        // reduce/ ReduceRight : it return array data as single value, it takes two parameter, prevVal, nextVal.
+
+        let add = num.reduce((prev, next) =>{
+            return prev + next;
+        });
+        document.writeln(`${add}<br>`)
+    </script>
+</body>
+</html>
