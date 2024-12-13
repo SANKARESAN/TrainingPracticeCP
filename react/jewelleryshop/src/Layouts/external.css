@@ -1,0 +1,110 @@
+.headerbox {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid rgb(110, 130, 243);
+    height: 150px; 
+    width: 100%; 
+    background-image: url('../assests/bgimg3.jpg');
+    background-size: cover; 
+    background-position: center;
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    position: relative; 
+}
+
+.headerbox img {
+    height: 80px; 
+    width: auto; 
+    border-radius: 50%; 
+    position: absolute; 
+    left: 20px; 
+}
+
+.headerbox h2 {
+    font-size: 2.8rem; 
+    color: rgb(212, 82, 219);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0;
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+.text-warning {
+    font-size: 24px;
+}
+
+.contact-us-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: auto;
+    margin: 0 auto;
+    background-image: url('../assests/bgimg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #b88a56; 
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact-details {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 5px; 
+    border-radius: 3px; 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b88a56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #9a7445;
+}
+
+

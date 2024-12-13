@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "102",
+      "pname": "Mouse",
+      "pprice": 2000,
+      "pcompany": "Intel",
+      "pquantity": 5
+    },
+    {
+      "id": "103",
+      "pname": "Monitor",
+      "pprice": 10000,
+      "pcompany": "Dell",
+      "pquantity": 12
+    },
+    {
+      "id": "104",
+      "pname": "Keyboard",
+      "pprice": 3000,
+      "pcompany": "Sony",
+      "pquantity": 8
+    },
+    {
+      "id": "d615",
+      "pname": "vivo-v40",
+      "pprice": "40000",
+      "pcompany": "vivo",
+      "pquantity": "10",
+      "": "d"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userid": "admin@gmail.com",
+      "userpass": "admin@123"
+    },
+    {
+      "id": "2",
+      "userid": "hero@gmail.com",
+      "userpass": "hero@123"
+    }
+  ]
+}
