@@ -1,0 +1,216 @@
+====================================================POSTGRE-SQL===============================================================
+NOTES :-
+-----
+
+create table customers (
+id integer primary key,
+firstname varchar (50) not null,
+lastname varchar (50) not null,
+email varchar (250) not null,
+birthday date not null);
+
+
+
+way to import db in pg admin. 
+method-1
+go to pg-admin ti right click db to create new db name with respective path to create it.
+
+
+
+alternate way to import db in pg admin. 
+method-2
+cmd command :    
+1. pg_restore -U postgres -d dvdrental.tar
+2. file downloaded path
+
+
+
+--> \dt = list all the tables in that db.
+
+
+
+dvdrental=# select current_database();
+ current_database
+------------------
+ dvdrental
+(1 row)
+
+
+
+dvdrental=# select inet_server_addr(), inet_server_port();
+ inet_server_addr | inet_server_port
+------------------+------------------
+ ::1              |             5432
+(1 row)
+
+
+select * from customer;
+
+
+select first_name || ' ' || last_name from customer;
+(or)
+select first_name || ' ' || last_name as full_name from customer;
+
+
+
+select first_name, last_name, email from customer order by first_name desc; 
+
+
+select first_name, last_name, email from customer order by first_name desc, last_name asc; 	
+
+
+select first_name, length(first_name) from customer;
+
+
+select first_name, length(first_name) as len from customer order by len desc;
+
+-----------------------------------------------------------------------------------------------------------------------
+create table sort_demo_nulls(num int);
+
+ insert into sort_demo_nulls values(1),(2),(null),(3),(4),(null);
+
+
+
+\pset null null ----> this command only shows the null values otherwise it shows blankspace.
+
+
+
+select * from sort_demo_nulls order by num;
+
+select * from sort_demo_nulls order by num nulls first;
+
+select * from sort_demo_nulls order by num desc nulls last;
+
+Database@123
+
+\dt
+select * from language;
+
+
+
+select distinct category_id from film_category;
+select count(*) from film_category;
+select count(distinct category_id) from film_category;
+
+select distinct rental_rate from film;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
