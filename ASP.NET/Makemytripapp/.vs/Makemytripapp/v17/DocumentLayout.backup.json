@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\views\\home\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\views\\home\\updatereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\views\\home\\getreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\views\\home\\getreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\views\\home\\addreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|c:\\users\\sankaresan.s\\source\\repos\\makemytripapp\\makemytripapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F99B67D-1416-44C5-B50F-897FFEF4E378}|Makemytripapp\\Makemytripapp.csproj|solutionrelative:makemytripapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\AddReservation.cshtml",
+              "RelativeDocumentMoniker": "Makemytripapp\\Views\\Home\\AddReservation.cshtml",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\AddReservation.cshtml",
+              "RelativeToolTip": "Makemytripapp\\Views\\Home\\AddReservation.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T10:33:02.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\GetReservation.cshtml",
+              "RelativeDocumentMoniker": "Makemytripapp\\Views\\Home\\GetReservation.cshtml",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\GetReservation.cshtml",
+              "RelativeToolTip": "Makemytripapp\\Views\\Home\\GetReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T10:30:38.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "updatereservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\updatereservation.cshtml",
+              "RelativeDocumentMoniker": "Makemytripapp\\Views\\Home\\updatereservation.cshtml",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\updatereservation.cshtml",
+              "RelativeToolTip": "Makemytripapp\\Views\\Home\\updatereservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T10:25:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Makemytripapp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Makemytripapp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T09:19:19.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Makemytripapp\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Models\\Reservation.cs",
+              "RelativeToolTip": "Makemytripapp\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T09:18:52.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Makemytripapp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Makemytripapp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T10:31:32.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Makemytripapp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\sankaresan.s\\source\\repos\\Makemytripapp\\Makemytripapp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Makemytripapp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T10:31:27.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
