@@ -1,0 +1,8 @@
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.csproj.AssemblyReference.cache
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.AssemblyInfoInputs.cache
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.AssemblyInfo.cs
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.csproj.CoreCompileInputs.cache
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.RazorAssemblyInfo.cache
+C:\Users\sanka\Desktop\HOME\C#_Home\MakeMyTripAppTask\MakeMyTripAppTask\obj\Debug\net8.0\MakeMyTripAppTask.RazorAssemblyInfo.cs
