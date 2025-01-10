@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Makemytripapp.Models
+﻿namespace Makemytripapp.Models
 {
     public class Reservation
     {

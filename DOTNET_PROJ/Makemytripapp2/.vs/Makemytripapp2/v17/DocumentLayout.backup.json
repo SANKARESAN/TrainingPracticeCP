@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\",
+  "WorkspaceRootPath": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|c:\\users\\sanka\\desktop\\home\\c#_home\\makemytripapp2\\makemytripapp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|solutionrelative:makemytripapp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makemytripapp2\\Models\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|c:\\users\\sanka\\desktop\\home\\c#_home\\makemytripapp2\\makemytripapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|solutionrelative:makemytripapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makemytripapp2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|c:\\users\\sanka\\desktop\\home\\c#_home\\makemytripapp2\\makemytripapp2\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|solutionrelative:makemytripapp2\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makemytripapp2\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|c:\\users\\sanka\\desktop\\home\\c#_home\\makemytripapp2\\makemytripapp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CA4949A-C7D2-4A52-A260-3CEAF11B72FD}|Makemytripapp2\\Makemytripapp2.csproj|solutionrelative:makemytripapp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\Reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makemytripapp2\\Models\\Reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makemytripapp2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Makemytripapp2\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Makemytripapp2\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T06:52:01.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\appsettings.json",
+              "DocumentMoniker": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\appsettings.json",
               "RelativeDocumentMoniker": "Makemytripapp2\\appsettings.json",
-              "ToolTip": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\appsettings.json",
+              "ToolTip": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\appsettings.json",
               "RelativeToolTip": "Makemytripapp2\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-08T17:57:45.512Z",
               "EditorCaption": ""
@@ -45,37 +62,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Program.cs",
+              "DocumentMoniker": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Program.cs",
               "RelativeDocumentMoniker": "Makemytripapp2\\Program.cs",
-              "ToolTip": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Program.cs",
+              "ToolTip": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Program.cs",
               "RelativeToolTip": "Makemytripapp2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T17:57:24.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Models\\Reservation.cs",
+              "DocumentMoniker": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "Makemytripapp2\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Models\\Reservation.cs",
+              "ToolTip": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Models\\Reservation.cs",
               "RelativeToolTip": "Makemytripapp2\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T17:56:49.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Makemytripapp2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Makemytripapp2\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwD0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T17:37:03.424Z",
               "EditorCaption": ""

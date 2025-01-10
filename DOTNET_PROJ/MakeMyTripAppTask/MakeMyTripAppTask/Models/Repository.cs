@@ -1,7 +1,7 @@
-﻿
+﻿using MakeMyTripApp.Models;
 using MakeMyTripAppTask.Models;
 
-namespace MakeMyTripAppTask.Models
+namespace MakeMyTripApp.Models
 {
     public class Repository : IRepository
     {
@@ -11,30 +11,30 @@ namespace MakeMyTripAppTask.Models
         {
             this.context = context;
 
-            new List<MakeMyTripApp>() {
-                new MakeMyTripApp() {id = 1, name= "Rio", startlocation="Chennai", endlocation="Thanjavur" },
-                //new Reservation() {Id = 2, Name= "Ajay", StartLocation="Kanayakumari", EndLocation="Mumbai" },
-                //new Reservation() {Id = 3, Name= "Manoj", StartLocation="Chennai", EndLocation="madurai" },
-                //new Reservation() {Id = 4, Name= "Sanjay", StartLocation="Chennai", EndLocation="Thiruchi" },
-            }.ForEach(r => AddMakeMyTripApp(r));
+            new List<Reservation>() {
+                new Reservation() {Id = 1, Name= "Rio", StartLocation="Chennai", EndLocation="Trichy" },
+                //new Reservation() {Id = 2, Name= "Ram", StartLocation="Kanayakumari", EndLocation="Chennai" },
+                //new Reservation() {Id = 3, Name= "Sam", StartLocation="Tanjore", EndLocation="madurai" },
+                //new Reservation() {Id = 4, Name= "Prem", StartLocation="Madurai", EndLocation="Karur" },
+            }.ForEach(r => AddReservation(r));
         }
 
-        public MakeMyTripApp this[int id] => getMakeMyTripApp(id);
+        public Reservation this[int id] => getReservation(id);
 
-        private MakeMyTripApp getMakeMyTripApp(int id)
+        private Reservation getReservation(int id)
         {
-            foreach (MakeMyTripApp res in context.MakeMyTripApp)
+            foreach (Reservation res in context.Reservations)
             {
-                if (res.id == id) return res;
+                if (res.Id == id) return res;
             }
             return null;
         }
 
-        public IEnumerable<MakeMyTripApp> MakeMyTripApp => context.MakeMyTripApp;
+        public IEnumerable<Reservation> Reservations => context.Reservations;
 
-        public object Context { get; private set; }
 
-        public MakeMyTripApp AddMakeMyTripApp(MakeMyTripApp MakeMyTripApp)
+
+        public Reservation AddReservation(Reservation reservation)
         {
             //if (reservation.Id == 0)
             //{
@@ -50,32 +50,32 @@ namespace MakeMyTripAppTask.Models
             //    }
             //    reservation.Id = key;
             //}
-            ADDandSAVE(MakeMyTripApp);
-            return MakeMyTripApp;
+            ADDandSAVE(reservation);
+            return reservation;
         }
 
-        public async void ADDandSAVE(MakeMyTripApp MakeMyTripApp)
+        public async void ADDandSAVE(Reservation reservation)
         {
-            Context.MakeMyTrip.Add(MakeMyTripApp);
+            context.Department.Add(reservation);
             //context.Entry(reservation).State = Microsoft.EntityFrameworkCore.EntityState.Added;
             await context.SaveChangesAsync();
         }
 
 
-        public void DeleteMakeMyTripApp(int id)
+        public void DeleteReservation(int id)
         {
-            foreach (MakeMyTripApp res in context.MakeMyTripApp)
+            foreach (Reservation res in context.Reservations)
             {
-                if (res.id == id)
+                if (res.Id == id)
                 {
-                    context.MakeMyTripApp.Remove(res);
+                    context.Department.Remove(res);
                 }
             }
         }
 
-        public MakeMyTripApp UpdateMakeMyTripApp(MakeMyTripApp MakeMyTripApp)
+        public Reservation UpdateReservation(Reservation reservation)
         {
-            return AddMakeMyTripApp(MakeMyTripApp);
+            return AddReservation(reservation);
         }
     }
 }

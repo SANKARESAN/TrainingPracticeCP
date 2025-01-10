@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakeMyTripAppTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c985d2c744ac73c0d5e2c7b02bbcfde4b3a87f09")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakeMyTripAppTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakeMyTripAppTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

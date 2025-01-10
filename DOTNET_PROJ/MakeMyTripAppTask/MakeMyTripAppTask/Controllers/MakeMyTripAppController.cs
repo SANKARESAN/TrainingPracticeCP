@@ -1,14 +1,15 @@
-﻿using MakeMyTripAppTask.Models;
+﻿//using MakeMyTripAppTask.Models;
+using MakeMyTripAppTask.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MakeMyTripAppTask.Controllers
+namespace MakeMyTripApp.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class MakeMyTripAppController : ControllerBase
+    public class ReservationController : ControllerBase
     {
         private IRepository repository;
-        public MakeMyTripAppController(IRepository rep)
+        public ReservationController(IRepository rep)
         {
             repository = rep;
         }
@@ -16,10 +17,10 @@ namespace MakeMyTripAppTask.Controllers
 
 
         [HttpGet]
-        public IEnumerable<MakeMyTripApp> Get() => repository.MakeMyTripApp;
+        public IEnumerable<Reservation> Get() => repository.Reservations;
 
         [HttpGet("{id}")]
-        public ActionResult<MakeMyTripApp> Get(int id)
+        public ActionResult<Reservation> Get(int id)
         {
             if (id == 0)
             {
@@ -30,24 +31,24 @@ namespace MakeMyTripAppTask.Controllers
 
 
         [HttpPost]
-        public MakeMyTripApp Post([FromBody] MakeMyTripApp res) =>
-            repository.AddMakeMyTripApp(new MakeMyTripApp
+        public Reservation Post([FromBody] Reservation res) =>
+            repository.AddReservation(new Reservation
             {
-                id = res.id,
-                name = res.name,
-                startlocation = res.startlocation,
-                endlocation = res.endlocation
+                Id = res.Id,
+                Name = res.Name,
+                StartLocation = res.StartLocation,
+                EndLocation = res.EndLocation
             });
 
 
         [HttpPut]
-        public MakeMyTripApp Put([FromForm] MakeMyTripApp res) =>
-            repository.UpdateMakeMyTripApp(res);
+        public Reservation Put([FromForm] Reservation res) =>
+            repository.UpdateReservation(res);
 
 
         [HttpDelete("{id}")]
         public void Delete(int id) =>
-            repository.DeleteMakeMyTripApp(id);
+            repository.DeleteReservation(id);
 
 
 

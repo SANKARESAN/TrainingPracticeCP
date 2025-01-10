@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Makemytripapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d91fc4189f77d3f588815d95bd827b6698674e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d04fc7f1ab65b94dc3f9ffd5f2cac1437d57bd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Makemytripapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Makemytripapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,9 @@
 using System.Diagnostics;
+//using MakeMyTripAppTask.Models;
 using MakeMyTripAppTask.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MakeMyTripAppTask.Controllers
+namespace MakeMyTripApp.Controllers
 {
     public class HomeController : Controller
     {

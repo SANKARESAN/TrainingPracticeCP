@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj": {}
+    "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj": {
+    "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj",
+        "projectUniqueName": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj",
         "projectName": "Makemytripapp2",
-        "projectPath": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj",
-        "packagesPath": "C:\\Users\\sanka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanka\\Desktop\\HOME\\C#_Home\\Makemytripapp2\\Makemytripapp2\\obj\\",
+        "projectPath": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\Makemytripapp2.csproj",
+        "packagesPath": "C:\\Users\\sankaresan.s\\.nuget\\packages\\",
+        "outputPath": "C:\\sankaresh\\DOTNET_PROJ\\Makemytripapp2\\Makemytripapp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sankaresan.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sankaresan.s\\source\\repos\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj": {}
+    "C:\\sankaresh\\ASP.NET\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sankaresan.s\\source\\repos\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj": {
+    "C:\\sankaresh\\ASP.NET\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sankaresan.s\\source\\repos\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj",
+        "projectUniqueName": "C:\\sankaresh\\ASP.NET\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj",
         "projectName": "WebApiDemo",
-        "projectPath": "C:\\Users\\sankaresan.s\\source\\repos\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj",
+        "projectPath": "C:\\sankaresh\\ASP.NET\\WebApiDemo\\WebApiDemo\\WebApiDemo.csproj",
         "packagesPath": "C:\\Users\\sankaresan.s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sankaresan.s\\source\\repos\\WebApiDemo\\WebApiDemo\\obj\\",
+        "outputPath": "C:\\sankaresh\\ASP.NET\\WebApiDemo\\WebApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,16 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             }
